@@ -14,6 +14,27 @@
         android:theme="@style/Theme.Intent"
         tools:targetApi="31">
         <activity
+            android:name=".MoveForResult"
+            android:exported="false" />
+        <activity
+            android:name=".MoveWithObject"
+            android:exported="false" />
+        <activity
+            android:name=".Person"
+            android:exported="false" />
+        <activity
+            android:name=".DialPhone"
+            android:exported="false" />
+        <activity
+            android:name=".DialNumber"
+            android:exported="false" />
+        <activity
+            android:name=".MoveWithDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoveActivityWithData"
+            android:exported="false" />
+        <activity
             android:name=".MoveActivity"
             android:exported="false" />
         <activity

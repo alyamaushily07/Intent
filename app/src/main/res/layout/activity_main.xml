@@ -13,10 +13,45 @@
 <Button
     android:id="@+id/btn_move_activity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
 
     android:layout_marginBottom="@dimen/activity_vertical_margin"
     android:text="@string/this_is_moveactivity" />
+<Button
+    android:id="@+id/btn_move_activity_with_data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:text="@string/this_is_moveactivitywithdata" />
+<Button
+    android:id="@+id/btn_move_activity_with_object"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/move_with_object"/>
+
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/dial_number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move_activity_with_result"
+        android:layout_marginBottom="16dp"
+        android:text="pindah Activity untuk Result"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Hasil Dari Activity"/>
+
 </LinearLayout>
 
 

@@ -1,12 +1,11 @@
 package com.example.intent
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
-class MoveActivity : AppCompatActivity() {
+class DialPhone : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_move)
-
+        setContentView(R.layout.activity_dial_phone)
     }
 }
